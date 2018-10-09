@@ -1,0 +1,48 @@
+.container {
+    padding: 20px;
+    display: flex;
+}
+
+.goods {
+    border: 2px solid black;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.item {
+    border: 2px solid black;
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+}
+
+.prev {
+    width: 180px;
+}
+
+.discr {
+    text-align: center;
+    color: black;
+}
+
+.userData {
+    padding: 10px;
+    border: 2px solid black;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.userData a:hover {
+    text-decoration: underline;
+}
